@@ -1,0 +1,539 @@
+*{
+
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	line-height: 24px;
+	font-size: 14px;
+	font-family:sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: monospace;
+}
+a,a:hover{
+	text-decoration: none;
+}
+
+							/* css code starts from here for Strict home page */
+
+							/* ****************************************************
+							 						Global CSS Code starts 
+							******************************************************* */
+.container{
+		width: 1140px;
+		margin: 0px auto;
+	
+
+
+}
+.row{
+	width: 100%;
+	float: left;
+	
+}
+.col-md-12{
+	width: 100%;
+	float: left;
+	
+}
+
+.col-md-4{
+	width: 33.3%;
+	float: left;
+}
+.col-md-6{
+	width: 50%;
+	float: left;
+
+}
+.text-right{
+	text-align: right;
+}
+
+								/*****************************************************
+								 						Global CSS Code Ends 
+								********************************************************/
+.header-section{
+	width: 100%;
+	float: left;
+	padding: 15px 0px;
+	background-color: #f6f9f9 ;
+}
+.logo{
+	width: 100%;
+	
+}
+
+.header-section .navigation{
+
+		width: 100%;
+		float: left;
+		margin-top: 10px ;
+		margin-left: 100px;	
+}
+.header-section ul{
+		display: block;
+		text-align: right;
+
+}
+
+.header-section ul li{
+
+	display: inline-block;
+	list-style-type: none;
+}
+.header-section ul li a{
+	text-align: center;
+	color: #999;
+	font-size: 20px;
+	margin: 0px 8px;
+	text-transform: capitalize;
+	font-weight: 600;
+	padding: 6px 3px;
+}
+
+.header-section ul li a:hover{
+			transition: 1s;
+			/* border: 1px solid #15a4fa; */
+			/* background-color: #15a4fa; */
+			color: #15a4fa;
+			border-radius: 4px;
+}
+
+
+
+							/* **************************************
+									Banner section starts here
+							************************************ */
+
+.banner-section{
+			width: 100%;
+			float: left;
+			padding: 80px 0px;
+			background-image: url('../img/banner.png');
+			background-position:center top;
+			background-repeat: no-repeat;
+			background-size: auto;
+}
+.banner-inner{
+		width: 100%;
+		float: left;
+		text-align: center;
+
+}
+.banner-inner h1{
+
+	font-size: 85px;
+	color: white;
+	text-transform: uppercase;
+	font-weight: 700;
+	padding-top: 140px;
+	padding-bottom: 25px;
+	font-family: "Lato Bold",sans-serif;
+
+
+}
+.divider{
+
+	width: 40%;
+	height: 2px;
+	margin: 20px auto;
+	background-color: #15a4fa;
+}
+.banner-inner p{
+
+	font-size: 14px;
+	color: white;
+	font-weight: 300;
+	padding-bottom: 20px;
+	font-family: "Lato",sans-serif;
+
+
+}
+
+.banner-inner .button{
+
+color: white;
+
+background-color: transparent;
+
+display: inline-block;
+
+margin-top: 13px;
+
+padding: 8px 20px;
+
+text-align: center;
+
+border: 1px solid #15a4fa;
+
+TRANSITION: ALL .5S EASE-IN-OUT;
+}
+
+.banner-inner .button:hover{
+
+		background-color:  #15a4fa;
+		border-radius: 4px;
+
+}
+.arrow{
+		width: 100%;
+		float: left;
+		margin-top: 40px;
+
+
+}
+.icon{
+
+    margin-top: 100px;
+    transform: translate(0%, 100%);
+}
+
+
+							/* **************************************
+									Banner section ends here
+							************************************ */
+
+							/* **************************************
+									simple pure section starts here
+							************************************ */
+
+.sim-pure-section{
+		width: 100%;
+		float: left;
+		padding: 60px 0px;
+		background-color: #f6f9f9;
+		text-align: center;
+
+}
+
+.sim-pure-inner{
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+
+.sim-pure-inner h1{
+
+	font-size: 36px;
+	line-height: 57px;
+	font-weight: 300;
+	color: #2d3950;
+	margin-bottom: 15px;
+	font-family: "Lato",sans-serif;
+}
+.sim-pure-inner p{
+
+	font-size: 20px;
+	color: #999999;
+	line-height: 30px;
+	font-family: "Lato",sans-serif;
+}
+
+
+
+
+							/* **************************************
+									simple pure section Ends here
+							************************************ */
+
+
+							/* **************************************
+									feature section starts here
+							************************************ */
+
+.feature-section{
+		width: 100%;
+		float: left;
+		padding: 60px 0px;	
+}
+
+.feature-section .feature-inner{
+
+		text-align: center;
+
+}
+
+.feature-section .feature-inner h4{
+
+			font-size: 19px;
+			font-weight: 500;
+			color: #2d3950;
+			margin-top: 50px;
+			margin-bottom:12px;
+			font-family: "Lato",sans-serif;
+		}
+			
+.feature-section .feature-inner p{
+		font-size: 16px;
+		color: #999999;
+		font-family: "Lato",sans-serif;
+
+}
+							/* **************************************
+									feature section ends here
+							************************************ */
+
+							/* **************************************
+									portfolio section starts here
+							************************************ */
+
+.portfolio{
+
+	width: 100%;
+	float: left;
+	padding: 60px 0px;
+	background-color: #f6f9f9;
+
+}
+.portfolio .title {
+				width: 100%;
+				float: left;
+			text-align: center;
+
+}
+
+.portfolio .title h1{
+	font-size: 35px;
+	font-weight: 500;
+	line-height: 30px;
+	color: #2d3950;
+	margin-top: 25px;
+	margin-bottom: 20px;
+	font-family: "Lato",sans-serif;
+
+}
+.portfolio .title p{
+		font-size: 15px;
+		color: #909090;
+		margin-bottom:55px; 
+		font-family: "Lato",sans-serif;
+}
+
+.port-inner{
+
+
+	width: 100%;
+	position: relative ;
+	float: left;
+}
+.port-hover{
+	text-align: center;
+	width: 95%;
+	height: 98%;
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	background: rgb(29, 156, 236, 0.7); /* 0.6 niye color ta halka korlo*/
+	display: none;
+}
+
+.port-hover img{
+
+}
+.port-hover ul{
+	display: block;
+	position: absolute;
+	top: 48%;
+	left: 35%;
+}
+
+.port-hover ul li{
+	display: inline-block;
+	list-style: none;
+	
+}
+.port-hover ul li a{
+	margin: 0px 3.5px;
+}
+.port-hover ul li a img{
+	
+}
+
+.port-hover .btn{
+
+			color: white;
+			/* background-color: #15a4fa; */
+			/* display: inline-block; */
+			/* margin-top: 13px; */
+			padding-top: 20px;
+    		padding-bottom: 13px;
+    		padding-left: 16px;
+    		padding-right: 16px;
+			text-align: center;
+			border: 1px solid white;
+			border-radius: 5px;
+
+}
+
+.port-inner:hover .port-hover {
+
+	display: block;
+	transition: 1s;
+
+}
+
+.port-hover .btn:hover{
+	background-color: #15a4fa;
+	transition: 0.2s;
+}
+
+.marrr{
+
+	margin-top: 12px;
+}
+
+
+							/* **************************************
+							portfolio section ends here
+							************************************ */
+
+							/* **************************************
+									stay section starts here
+							************************************ */
+
+ .stay{
+ 	width: 100%;
+ 	float: left;
+ 	padding: 60px 0px;
+ 	background: url('../img/layer.png') center top no-repeat;
+ 	background-size: cover;
+ }
+ .stay .title {
+				width: 100%;
+				float: left;
+			text-align: center;
+}
+
+.stay .title h1{
+	font-size: 48px;
+	font-weight: 400;
+	line-height: 30px;
+	color: white;
+	margin-top: 25px;
+	margin-bottom: 20px;
+	font-family: "Lato",sans-serif;
+
+}
+.stay .title p{
+		font-size: 17px;
+		color: #999999;
+		margin-bottom:50px; 
+		font-family: "Lato",sans-serif;
+}
+.stay .contact{
+	width: 40%;
+	margin: 0px auto;
+	/* background-color: yellow; */
+}
+.stay .contact .form-group{
+	width: 100%;
+	float: left;
+	margin: 5px 0px;
+
+}
+.stay .contact .form-group .form-ctrl{ 
+	width: 95%;
+	background: transparent;
+	border: 1px solid #999;
+	padding: 17px 10px;
+	margin: 5px 0px;
+	color: #999999;
+	font-size: 16px;
+	border-radius: 4px;
+
+}
+.stay .contact .form-group textarea{
+
+	height: 120px;
+}
+
+.stay .contact .form-group span{
+	color: #fff;
+	margin-left: 8px;
+	font-size: 15px;
+}
+.stay .contact .form-group .col-md-6 .stay-button{
+
+			color: white;
+			background-color: transparent;
+			padding: 8px 35px; 
+			text-align: center;
+			border: 1px solid #15a4fa;
+			border-radius: 3px;
+
+
+}
+
+.stay .contact .form-group .col-md-6 .stay-button:hover{
+
+		background-color:  #15a4fa;
+		
+
+}
+							/* **************************************
+									stay section ends here
+							************************************ */
+
+
+
+
+								/* footer section starts */
+
+.footer{
+
+	width: 100%;
+	float: left;
+	margin: 18px 0px;
+}
+.footer .copy{
+	margin-top: 15px;
+}
+.footer .copyright{
+	font-size: 14px;
+	color: #999;
+	
+}
+.footer .icons{
+	width: 100%;
+	float: left;
+	text-align: right;
+}
+
+.footer ul{
+
+		width: 100%;
+		
+		display: block;
+
+}
+
+.footer ul li{
+
+display: inline-block;
+list-style-type: none;
+}
+.footer ul li a{
+	text-align: center;
+	color: #fff;
+	font-size: 20px;
+}
+.footer ul li a .fa{
+		width: 50px;
+		height: 50px;
+		line-height: 50px;
+		
+		border: 1px solid #15a4fa ; 
+		color: #fff;
+		background:#15a4fa;
+
+}
+.footer ul li a .fa:hover{
+	background-color: black;
+	transition: 0.5s;
+	border: 1px solid black; 
+
+}
+							/* footer section ends */
